@@ -1,12 +1,8 @@
-<script>
-	import { fade } from 'svelte/transition';
-</script>
-
 <div class="back">
 	<a href="/home">Home</a>
 </div>
 <div class="wrapper">
-	<div class="container" in:fade={{ delay: 300, duration: 1000 }}>
+	<div class="container">
 		<div>
 			<h1 class="title">Technologies:</h1>
 		</div>

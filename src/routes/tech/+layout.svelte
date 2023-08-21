@@ -1,8 +1,11 @@
 <script>
-	import Dale from '../../components/Dale.svelte';
+	import DaleNoTransition from '../../components/DaleNoTransition.svelte';
 	import Footer from '../../components/Footer.svelte';
+	import { fade } from 'svelte/transition';
 </script>
 
-<Dale />
-<slot />
+<DaleNoTransition />
+<div in:fade={{ delay: 300, duration: 1000 }}>
+	<slot />
+</div>
 <Footer />
