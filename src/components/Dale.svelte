@@ -4,16 +4,13 @@
 
 <div class="wrapper">
 	<div class="container">
-		<div transition:fly={{ delay: 100, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="myName">
+		<div in:fly={{ delay: 100, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="myName">
 			<h2>Dale Bendixen</h2>
 		</div>
-		<div transition:fly={{ delay: 300, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="hashes">
+		<div in:fly={{ delay: 300, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="hashes">
 			<h2>//</h2>
 		</div>
-		<div
-			transition:fly={{ delay: 500, duration: 1000, x: 2000, y: 10, opacity: 0 }}
-			class="Devloper"
-		>
+		<div in:fly={{ delay: 500, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="Devloper">
 			<h2>Developer</h2>
 		</div>
 	</div>
