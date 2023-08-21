@@ -5,8 +5,8 @@
 </script>
 
 <main>
-	<div in:fade={{ delay: 500, duration: 1000 }}><ProfessionalComponent /></div>
-	<div in:fade={{ delay: 1000, duration: 1000 }}><PersonalComponent /></div>
+	<div in:fade={{ delay: 250, duration: 1000 }}><ProfessionalComponent /></div>
+	<div in:fade={{ delay: 750, duration: 1000 }}><PersonalComponent /></div>
 </main>
 
 <style>

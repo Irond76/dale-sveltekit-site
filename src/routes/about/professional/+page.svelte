@@ -1,5 +1,9 @@
+<script>
+	import { fade } from 'svelte/transition';
+</script>
+
 <div class="wrapper">
-	<div class="container">
+	<div class="container" in:fade={{ delay: 300, duration: 1000 }}>
 		<div>
 			<h1 class="title">Early Career:</h1>
 		</div>
@@ -17,7 +21,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" in:fade={{ delay: 500, duration: 1000 }}>
 		<div>
 			<h1 class="title">Middle Career:</h1>
 		</div>
@@ -35,7 +39,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" in:fade={{ delay: 700, duration: 1000 }}>
 		<div>
 			<h1 class="title">Present Day:</h1>
 		</div>

@@ -7,9 +7,9 @@
 </script>
 
 <main>
-	<div in:fade={{ delay: 3000, duration: 1000 }}><AboutMeComponent /></div>
-	<div in:fade={{ delay: 4000, duration: 1000 }}><SkillsComponent /></div>
-	<div in:fade={{ delay: 5000, duration: 1000 }}><EducationComponent /></div>
+	<div in:fade={{ delay: 1500, duration: 1000 }}><AboutMeComponent /></div>
+	<div in:fade={{ delay: 2500, duration: 1000 }}><SkillsComponent /></div>
+	<div in:fade={{ delay: 3500, duration: 1000 }}><EducationComponent /></div>
 </main>
 
 <style>

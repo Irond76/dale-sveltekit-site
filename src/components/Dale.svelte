@@ -20,7 +20,7 @@
 				<h3>Phone: 208-412-9197</h3>
 			</a>
 		</div>
-		<div class="email" in:fade={{ delay: 2000, duration: 1000 }}>
+		<div class="email" in:fade={{ delay: 1400, duration: 1000 }}>
 			<a href="mailto:dalebendixen@gmail.com" target="_blank" rel="noopener noreferrer"
 				><h3>Contact Me</h3></a
 			>
