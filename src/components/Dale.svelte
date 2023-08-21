@@ -1,26 +1,49 @@
 <script>
-	import { fly } from 'svelte/transition';
+	import { fly, fade } from 'svelte/transition';
 </script>
 
-<div class="container">
-	<div transition:fly={{ delay: 100, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="myName">
-		<h2>Dale Bendixen</h2>
+<div class="wrapper">
+	<div class="container">
+		<div transition:fly={{ delay: 100, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="myName">
+			<h2>Dale Bendixen</h2>
+		</div>
+		<div transition:fly={{ delay: 300, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="hashes">
+			<h2>//</h2>
+		</div>
+		<div
+			transition:fly={{ delay: 500, duration: 1000, x: 2000, y: 10, opacity: 0 }}
+			class="Devloper"
+		>
+			<h2>Developer</h2>
+		</div>
 	</div>
-	<div transition:fly={{ delay: 300, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="hashes">
-		<h2>//</h2>
+	<div class="phone" in:fade={{ delay: 1200, duration: 1000 }}>
+		<a href="tel:2084129197">
+			<h3>Phone: 208-412-9197</h3>
+		</a>
 	</div>
-	<div transition:fly={{ delay: 500, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="Devloper">
-		<h2>Developer</h2>
+	<div class="email" in:fade={{ delay: 2000, duration: 1000 }}>
+		<a href="mailto:dalebendixen@gmail.com" target="_blank" rel="noopener noreferrer"
+			><h3>dalebendixen@gmail.com</h3></a
+		>
 	</div>
 </div>
 <hr />
 
 <style>
+	.wrapper {
+		/* border: 1px solid blue; */
+		display: grid;
+		margin: 0 auto;
+		width: 80dvw;
+		grid-template-columns: 2fr 1fr 1fr;
+		align-items: center;
+		justify-content: space-between;
+	}
 	.container {
 		/* border: 1px solid blue; */
 		margin-top: 0rem;
-		/* background-color: rgba(166, 52, 19, 0.1); */
-		padding: 0.5rem;
+		padding: 1rem;
 	}
 	.myName {
 		margin: 0rem 0 0 1.5rem;
@@ -37,5 +60,13 @@
 		height: 1px;
 		background-color: red;
 		border: none;
+	}
+	a {
+		text-decoration: none;
+		color: #dc400f;
+		cursor: pointer;
+	}
+	a:hover {
+		color: #fff;
 	}
 </style>
