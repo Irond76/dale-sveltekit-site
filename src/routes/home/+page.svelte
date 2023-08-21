@@ -1,5 +1,4 @@
 <script>
-	import Dale from '../../components/Dale.svelte';
 	import SkillsComponent from '../../components/SkillsComponent.svelte';
 	import EducationComponent from '../../components/EducationComponent.svelte';
 	import { fade } from 'svelte/transition';

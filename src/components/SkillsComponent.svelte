@@ -1,7 +1,7 @@
-<a href="/skills">
+<a href="/tech">
 	<div class="skills-container">
 		<div class="skills-title">
-			<h2>Skills</h2>
+			<h2>Tech</h2>
 		</div>
 		<div class="icon-title">
 			<i class="fa-solid fa-gears" />
