@@ -6,11 +6,6 @@
 	import AboutMeComponent from '../../components/AboutMeComponent.svelte';
 </script>
 
-<header>
-	<nav>
-		<Dale />
-	</nav>
-</header>
 <main>
 	<div in:fade={{ delay: 3000, duration: 1000 }}><AboutMeComponent /></div>
 	<div in:fade={{ delay: 4000, duration: 1000 }}><SkillsComponent /></div>

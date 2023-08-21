@@ -11,7 +11,7 @@
 
 <style>
 	.skills-container {
-		width: 20dvw;
+		width: 24dvw;
 		border: 1px solid #dc400f;
 		text-align: center;
 		padding: 1em;
@@ -33,5 +33,11 @@
 	}
 	.skills-container:hover {
 		background-color: rgba(166, 52, 19, 0.5);
+	}
+	@media screen and (max-width: 480px) {
+		.skills-container {
+			width: 60dvw;
+			margin: 1em auto;
+		}
 	}
 </style>

@@ -1,26 +1,22 @@
-<script>
-	import { fly, fade } from 'svelte/transition';
-</script>
-
 <header>
 	<div class="wrapper">
 		<div class="container">
-			<div in:fly={{ delay: 100, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="myName">
+			<div class="myName">
 				<h2>Dale Bendixen</h2>
 			</div>
-			<div in:fly={{ delay: 300, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="hashes">
+			<div class="hashes">
 				<h2>//</h2>
 			</div>
-			<div in:fly={{ delay: 500, duration: 1000, x: 2000, y: 10, opacity: 0 }} class="Devloper">
+			<div class="Devloper">
 				<h2>Developer</h2>
 			</div>
 		</div>
-		<div class="phone" in:fade={{ delay: 1200, duration: 1000 }}>
+		<div class="phone">
 			<a href="tel:2084129197">
 				<h3>Phone: 208-412-9197</h3>
 			</a>
 		</div>
-		<div class="email" in:fade={{ delay: 2000, duration: 1000 }}>
+		<div class="email">
 			<a href="mailto:dalebendixen@gmail.com" target="_blank" rel="noopener noreferrer"
 				><h3>Contact Me</h3></a
 			>
