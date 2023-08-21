@@ -1,59 +1,67 @@
-<div class="container">
-	<div>
-		<h1 class="title">Early Career:</h1>
+<div class="wrapper">
+	<div class="container">
+		<div>
+			<h1 class="title">Early Career:</h1>
+		</div>
+		<div>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sint tenetur similique,
+				illo obcaecati unde deleniti asperiores quidem ipsam vero nesciunt id officia, molestias ea
+				vitae nihil. Nam vel est corporis obcaecati maxime nesciunt. Itaque minima ea neque nemo
+				corrupti quasi cupiditate ab ex explicabo consequuntur eum ullam unde tempore qui
+				repudiandae labore, perspiciatis assumenda eveniet, nam voluptatum, excepturi eius! Dolorem
+				animi laborum ipsum laudantium, voluptas illo placeat, aperiam aut eaque velit unde deleniti
+				eius at exercitationem quos corrupti iusto fuga atque nulla numquam voluptate. Magni
+				laudantium deleniti molestias non repudiandae officiis cupiditate a consequatur id hic,
+				mollitia magnam similique.
+			</p>
+		</div>
 	</div>
-	<div>
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sint tenetur similique, illo
-			obcaecati unde deleniti asperiores quidem ipsam vero nesciunt id officia, molestias ea vitae
-			nihil. Nam vel est corporis obcaecati maxime nesciunt. Itaque minima ea neque nemo corrupti
-			quasi cupiditate ab ex explicabo consequuntur eum ullam unde tempore qui repudiandae labore,
-			perspiciatis assumenda eveniet, nam voluptatum, excepturi eius! Dolorem animi laborum ipsum
-			laudantium, voluptas illo placeat, aperiam aut eaque velit unde deleniti eius at
-			exercitationem quos corrupti iusto fuga atque nulla numquam voluptate. Magni laudantium
-			deleniti molestias non repudiandae officiis cupiditate a consequatur id hic, mollitia magnam
-			similique.
-		</p>
+	<div class="container">
+		<div>
+			<h1 class="title">Middle Career:</h1>
+		</div>
+		<div>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sint tenetur similique,
+				illo obcaecati unde deleniti asperiores quidem ipsam vero nesciunt id officia, molestias ea
+				vitae nihil. Nam vel est corporis obcaecati maxime nesciunt. Itaque minima ea neque nemo
+				corrupti quasi cupiditate ab ex explicabo consequuntur eum ullam unde tempore qui
+				repudiandae labore, perspiciatis assumenda eveniet, nam voluptatum, excepturi eius! Dolorem
+				animi laborum ipsum laudantium, voluptas illo placeat, aperiam aut eaque velit unde deleniti
+				eius at exercitationem quos corrupti iusto fuga atque nulla numquam voluptate. Magni
+				laudantium deleniti molestias non repudiandae officiis cupiditate a consequatur id hic,
+				mollitia magnam similique.
+			</p>
+		</div>
 	</div>
-</div>
-<div class="container">
-	<div>
-		<h1 class="title">Middle Career:</h1>
-	</div>
-	<div>
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sint tenetur similique, illo
-			obcaecati unde deleniti asperiores quidem ipsam vero nesciunt id officia, molestias ea vitae
-			nihil. Nam vel est corporis obcaecati maxime nesciunt. Itaque minima ea neque nemo corrupti
-			quasi cupiditate ab ex explicabo consequuntur eum ullam unde tempore qui repudiandae labore,
-			perspiciatis assumenda eveniet, nam voluptatum, excepturi eius! Dolorem animi laborum ipsum
-			laudantium, voluptas illo placeat, aperiam aut eaque velit unde deleniti eius at
-			exercitationem quos corrupti iusto fuga atque nulla numquam voluptate. Magni laudantium
-			deleniti molestias non repudiandae officiis cupiditate a consequatur id hic, mollitia magnam
-			similique.
-		</p>
-	</div>
-</div>
-<div class="container">
-	<div>
-		<h1 class="title">Present Day:</h1>
-	</div>
-	<div>
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sint tenetur similique, illo
-			obcaecati unde deleniti asperiores quidem ipsam vero nesciunt id officia, molestias ea vitae
-			nihil. Nam vel est corporis obcaecati maxime nesciunt. Itaque minima ea neque nemo corrupti
-			quasi cupiditate ab ex explicabo consequuntur eum ullam unde tempore qui repudiandae labore,
-			perspiciatis assumenda eveniet, nam voluptatum, excepturi eius! Dolorem animi laborum ipsum
-			laudantium, voluptas illo placeat, aperiam aut eaque velit unde deleniti eius at
-			exercitationem quos corrupti iusto fuga atque nulla numquam voluptate. Magni laudantium
-			deleniti molestias non repudiandae officiis cupiditate a consequatur id hic, mollitia magnam
-			similique.
-		</p>
+	<div class="container">
+		<div>
+			<h1 class="title">Present Day:</h1>
+		</div>
+		<div>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sint tenetur similique,
+				illo obcaecati unde deleniti asperiores quidem ipsam vero nesciunt id officia, molestias ea
+				vitae nihil. Nam vel est corporis obcaecati maxime nesciunt. Itaque minima ea neque nemo
+				corrupti quasi cupiditate ab ex explicabo consequuntur eum ullam unde tempore qui
+				repudiandae labore, perspiciatis assumenda eveniet, nam voluptatum, excepturi eius! Dolorem
+				animi laborum ipsum laudantium, voluptas illo placeat, aperiam aut eaque velit unde deleniti
+				eius at exercitationem quos corrupti iusto fuga atque nulla numquam voluptate. Magni
+				laudantium deleniti molestias non repudiandae officiis cupiditate a consequatur id hic,
+				mollitia magnam similique.
+			</p>
+		</div>
 	</div>
 </div>
 
 <style>
+	.wrapper {
+		background-color: rgba(50, 50, 50, 0.3);
+		border-radius: 1em;
+		padding: 1em;
+		width: 100dvw;
+	}
 	.container {
 		margin: 4em auto 2em auto;
 		border: 1px solid #dc400f;
