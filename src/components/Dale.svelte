@@ -19,7 +19,7 @@
 	.container {
 		/* border: 1px solid blue; */
 		margin-top: 0rem;
-		background-color: rgba(166, 52, 19, 0.1);
+		/* background-color: rgba(166, 52, 19, 0.1); */
 		padding: 0.5rem;
 	}
 	.myName {
@@ -27,6 +27,7 @@
 	}
 	.hashes {
 		margin: -1.3rem 0 0 12rem;
+		color: red;
 	}
 
 	.Devloper {
