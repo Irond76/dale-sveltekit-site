@@ -5,7 +5,6 @@
 <style>
 	.enter-btn {
 		display: grid;
-		border: 1px solid blue;
 		height: 100dvh;
 		text-align: center;
 		align-items: center;
