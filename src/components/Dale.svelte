@@ -70,7 +70,7 @@
 		color: #fff;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 1079px) {
 		.wrapper {
 			display: grid;
 			grid-template-columns: 1fr;
