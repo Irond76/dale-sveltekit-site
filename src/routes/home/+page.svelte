@@ -3,5 +3,7 @@
 </script>
 
 <header>
-	<Dale />
+	<nav>
+		<Dale />
+	</nav>
 </header>

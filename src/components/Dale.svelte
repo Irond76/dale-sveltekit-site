@@ -24,7 +24,7 @@
 	</div>
 	<div class="email" in:fade={{ delay: 2000, duration: 1000 }}>
 		<a href="mailto:dalebendixen@gmail.com" target="_blank" rel="noopener noreferrer"
-			><h3>dalebendixen@gmail.com</h3></a
+			><h3>Contact Me</h3></a
 		>
 	</div>
 </div>
@@ -68,5 +68,25 @@
 	}
 	a:hover {
 		color: #fff;
+	}
+
+	@media screen and (max-width: 480px) {
+		.wrapper {
+			display: grid;
+			grid-template-columns: 1fr;
+			justify-content: center;
+			margin-top: 1rem;
+		}
+		.phone {
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+		.email {
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+		.Devloper {
+			margin-bottom: 1rem;
+		}
 	}
 </style>
