@@ -18,7 +18,7 @@
 	@media screen and (max-width: 480px) {
 		div {
 			width: 80dvw;
-			margin: 12em auto 1em auto;
+			margin: 16em auto 2em auto;
 		}
 		h1 {
 			font-size: 1em;
